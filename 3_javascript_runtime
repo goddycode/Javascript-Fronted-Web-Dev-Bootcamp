@@ -1,0 +1,24 @@
+
+JAVASCRIPT RUN
+.............
+JavaScript runtimes are environments where JavaScript code is executed. Various runtime environments support the execution of JavaScript code. Here are some common types of JavaScript runtimes:
+
+1. **Web Browsers:**
+   - **V8 (Chrome/Chromium):** Developed by Google, V8 is the JavaScript engine used in the Chrome and Chromium browsers. It's known for its speed and efficiency.
+
+   - **SpiderMonkey (Firefox):** SpiderMonkey is the JavaScript engine used in Mozilla Firefox. It is one of the oldest JavaScript engines.
+
+   - **JavaScriptCore (Safari):** Also known as Nitro, it is the JavaScript engine used in the Safari browser.
+
+   - **Chakra (Edge):** Chakra was the JavaScript engine used in the legacy Microsoft Edge browser. However, the new Edge browser (built on Chromium) now uses the V8 engine.
+
+2. **Node.js:**
+   - **V8 (Node.js):** Node.js is a server-side JavaScript runtime that uses the V8 JavaScript engine. It allows developers to run JavaScript on the server, enabling the development of scalable and high-performance web applications.
+
+3. **Deno:**
+   - **V8 (Deno):** Deno is a secure JavaScript and TypeScript runtime built on the V8 engine. It was created by the original creator of Node.js, Ryan Dahl, with a focus on security and improved developer experience.
+
+4. **Electron:**
+   - **V8 (Electron):** Electron is a framework for building cross-platform desktop applications using web technologies. It combines Chromium and Node.js, using the V8 engine for both the renderer process (web pages) and the main process (Node.js).
+
+These runtimes provide environments where JavaScript code can be executed, whether it's on the client side in web browsers or on the server side with technologies like Node.js. Each runtime may have its own features, optimizations, and capabilities, but they all adhere to the ECMAScript standard, ensuring a consistent base level of functionality for JavaScript code.
