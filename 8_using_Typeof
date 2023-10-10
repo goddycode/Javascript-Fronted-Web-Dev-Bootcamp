@@ -1,0 +1,13 @@
+/*
+Checkining datatypes in Javascripts
+*/
+
+const variable1 = 20;
+const variable2 = "some value";
+const variable3 = false; 
+
+console.log(typeof variable1);
+
+console.log(typeof variable2);
+
+console.log(typeof variable3); 
