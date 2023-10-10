@@ -1,0 +1,14 @@
+/*
+ This script illustrate nested object in Javascript
+*/
+
+const nestedOject = {
+ layer1: {
+  layer2: {
+   layer3: {
+    targetValue: 20
+    }
+   }
+  }
+}
+console.log("The value of the nested object "+nestedOject.layer1.layer2.layer3.targetValue);
