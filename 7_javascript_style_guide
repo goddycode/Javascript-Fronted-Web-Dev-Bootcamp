@@ -1,0 +1,8 @@
+/*
+It is good to research  Javascripts styele guide for
+Companies
+
+*/
+const firstVariable = 'Javascript gives me superpowers';
+
+const firstVariable = 20;  
