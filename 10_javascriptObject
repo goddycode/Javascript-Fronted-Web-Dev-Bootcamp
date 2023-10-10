@@ -1,0 +1,6 @@
+/* Everything in Javascript is an object
+*/
+
+const objectVariable = { prop1:20, prop1:45, prop1:46}
+
+console.log("Displaying object at key 0 :" +objectVariable.prop1)
