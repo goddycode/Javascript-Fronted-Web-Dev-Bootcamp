@@ -1,0 +1,7 @@
+/*
+Script to illustrate nested array
+*/
+
+const nestedArray = [10, 'a string', {prof: 'Snr ICT Officer'}, [1, 2]];
+
+console.log(nestedArray[3][1]);
