@@ -1,0 +1,6 @@
+/*
+This is a script to print to display a Hello world
+on the screen
+*/
+
+console.log("Hello wolrd!");
