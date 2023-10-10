@@ -1,0 +1,8 @@
+/* const, var and let
+*/
+
+const myfirstvar = 30; // When you dont expect change in a value
+
+let mysecond = 45; //used when you expect to reassign a value
+
+var mythird = 70; //Legacy varaible declaration, but longer used
