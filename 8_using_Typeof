@@ -6,8 +6,8 @@ const variable1 = 20;
 const variable2 = "some value";
 const variable3 = false; 
 
-console.log(typeof variable1);
+console.log("The data type of 20 " +typeof variable1);
 
-console.log(typeof variable2);
+console.log("The data type of 'some value' " +typeof variable2);
 
-console.log(typeof variable3); 
+console.log("The data type of 'false'  " +typeof variable3); 
