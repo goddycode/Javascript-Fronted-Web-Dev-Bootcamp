@@ -1,0 +1,12 @@
+/*
+Variables are just like containers which holds data
+
+*/
+
+const myfirstvariable = 'Learning to code gives me superpowers';
+
+const  mysecondVar = 10;
+
+const myThirdVar = {firstproperty: 'hello world'};
+
+console.log(myfirstvariable);
