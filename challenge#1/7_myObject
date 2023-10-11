@@ -1,0 +1,23 @@
+/*
+Creating an object called `myObject` and assign `myArray` to a property called `firstProperty`
+and the sum of `firstNumber` and `secondNumber` to a property called `sumProperty`
+*/
+
+const myObject = {
+	firstProperty: 'myArray', 
+	sumProperty: 'firstNumber' + 'secondNumber'
+};
+
+//Printing `myObject` to the console
+
+
+
+//Printing the value at index 1 of `firstProperty`
+
+
+
+//Printing thr `sumProperty` of `myObject` to the console
+console.log("The value of object myObject is "+myObject.sumProperty);
+
+//Printing datatype
+console.log("The datatype of myObject is "+typeof(myObject));
