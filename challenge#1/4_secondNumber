@@ -1,0 +1,13 @@
+/*
+Creating a number variable called `secondNumber` and set it `40`
+*/
+
+let secondNumber = 40;
+
+console.log("The value of secondNumber is "+secondNumber);
+console.log("The datatype of secondNumber is "+typeof(secondNumber));
+
+secondNumber = 80;
+
+console.log("The value of secondNumber is "+secondNumber);
+console.log("The datatype of secondNumber is "+typeof(secondNumber));
