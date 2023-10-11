@@ -1,0 +1,9 @@
+/*
+Creating an array called `myArray` and put `myBoolean` at index 0,
+and `myString` at index 1
+*/
+
+const myArray = ['myBoolean',' myString'];
+
+console.log("The value of myArray is "+myArray);
+console.log("The datatype of myArray is "+typeof(myArray));
