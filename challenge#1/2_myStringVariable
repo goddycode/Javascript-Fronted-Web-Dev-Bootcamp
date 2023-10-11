@@ -1,0 +1,8 @@
+/*
+Creating a string variable called `myString` and set it to `hello world`
+*/
+
+const myString = 'hello world';
+
+console.log("The value of myString is "+myString)
+console.log("The datatype of myString  is "+typeof(myString));
