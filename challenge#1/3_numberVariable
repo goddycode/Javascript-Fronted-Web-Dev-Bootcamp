@@ -1,0 +1,9 @@
+/*
+Creating a number variablww called `firstNumber` and set 
+it equal to `20`
+*/
+
+const firstNumber = 20;
+
+console.log("The value of firstNumber is "+firstNumber)
+console.log("The datatype of firstNumber is "+typeof(firstNumber));
