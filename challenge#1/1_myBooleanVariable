@@ -1,0 +1,9 @@
+/*
+Creating a boolaen variable called `myBoolean` and set it
+to `true`
+*/
+
+const myBoolean = true;
+
+console.log("The value of myBoolean is "+myBoolean)
+console.log("The datatype of myBoolean  is "+typeof(myBoolean));
