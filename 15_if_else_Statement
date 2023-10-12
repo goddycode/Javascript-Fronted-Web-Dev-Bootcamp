@@ -1,0 +1,14 @@
+/* 
+This script illustrates Javascript if/else statement
+*/
+
+let resultVariable;
+
+if (20 != 20) {
+	resultVariable = 'values match';
+	console.log(resultVariable);
+}
+else {
+	resultVariable = 'values do not match';
+	console.log(resultVariable);
+}
