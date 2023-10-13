@@ -1,0 +1,36 @@
+const blogPosts = [
+	{
+		title: 'what is Javascript?',
+		author: 'Zach Gollwitzer',
+		publishDate: 'Dec 20, 2020',
+		content: 'some content here'
+		
+	},
+	{
+                title: 'what is MangoDB?',
+                author: 'Goddy odhis',
+                publishDate: 'Jan 3, 2023',
+		content: 'some content here'
+
+        },
+	{
+                title: 'what is Java?',
+                author: 'Godfrey Paul',
+                publishDate: 'Dec 13, 2019',
+		content: 'some content here'
+
+        },
+];
+
+for (let i = 0; i < blogPosts.length; i++) {
+	const postTitle = blogPosts[i].title;
+	const postAuthor = blogPosts[i].author;
+	const postDate = blogPosts[i].publishDate;
+	const postContent = blogPosts[i].content;
+
+	//Now printing values
+	console.log(postTitle);
+	console.log(postAuthor);
+	console.log(postDate);
+	console.log(postContent);
+}
