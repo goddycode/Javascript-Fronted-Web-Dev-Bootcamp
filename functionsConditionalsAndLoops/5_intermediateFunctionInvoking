@@ -1,0 +1,7 @@
+/*
+This script illustrate javascript basic functions
+*/
+
+(function myFunction() {
+	console.log('hello world, this is my first javascript function');
+})();
