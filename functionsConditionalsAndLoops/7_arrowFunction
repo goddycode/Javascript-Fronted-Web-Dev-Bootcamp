@@ -1,0 +1,9 @@
+/*
+This script illustrates format and the how to use arrow function
+*/
+
+const arrowFunction = () => {
+	console.log('i am an arrow function');
+};
+
+arrowFunction();
