@@ -1,0 +1,8 @@
+/*
+This function illustrate parameters and augument
+*/
+
+(function myFunction(param1, param2){
+	console.log(param1);
+	console.log(param2);
+})('hello', 'world');
