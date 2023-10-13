@@ -1,0 +1,11 @@
+
+/*
+This script illustrates function return
+*/
+const returnFunction = () => {
+	const a = 20;
+	return a;
+}
+
+const result = returnFunction();
+console.log(result);
