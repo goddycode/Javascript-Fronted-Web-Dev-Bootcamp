@@ -1,0 +1,10 @@
+/*
+This is scripts illustrates the use of Date objects
+*/
+
+const myDate = new Date();
+
+
+console.log(myDate.toString());
+
+console.log(myDate.toISOString());
