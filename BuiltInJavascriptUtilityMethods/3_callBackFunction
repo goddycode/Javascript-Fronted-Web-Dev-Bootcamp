@@ -1,0 +1,16 @@
+/* This script explain the call back function */ 
+
+function  myCallback(someNumber){
+	return someNumber * 2;
+}
+
+function mainFunction(randomNumber, shouldCall, Callback){
+	let result = randomNumber;
+
+	if (shouldCall){
+		result = callback(randomNumber);
+	}
+	return result;
+}
+
+mainFunction(20, true, myCallback);
