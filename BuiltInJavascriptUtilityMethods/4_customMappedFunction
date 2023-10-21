@@ -1,0 +1,19 @@
+/*
+This script illustrates myCustomMapOperationCallback
+*/
+
+function myCustomMapOperationCallback(itemFromArray){
+	return itemFromArray * 2;
+}
+
+const myArray = [2, 4, 6, 8];
+
+ const newArray = myArray.map(myCustomMapOperationCallback);
+
+console.log(newArray );
+
+const strArray = ["Jesus", "of", "Nazareth", "is", "LORD");
+
+const strArrayMapped = strArray.map(itemFromArray => itemFromArray[0]);
+
+console.log(strArrayMapped);
