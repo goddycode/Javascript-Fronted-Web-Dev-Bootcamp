@@ -1,0 +1,12 @@
+/*
+This is script illustrates the difference between primitive and object data types
+*/
+
+//This is an object
+const string1 = new String("Hello, world!");
+
+//This is a primitive string
+const string2 = ("Hello, world!");
+
+console.log(string1 === string2);
+console.log(string1 == string2);
