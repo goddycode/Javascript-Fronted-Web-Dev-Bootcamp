@@ -1,0 +1,15 @@
+/*
+This script illustrate pop method
+*/
+
+const arr = [2, 7, 0, 5, 8];
+
+let pol = arr;
+console.log(pol);
+
+let pol1 = arr.pop();
+console.log(pol1);
+
+let pol2 = arr.pop();
+
+console.log(pol2);
