@@ -1,0 +1,10 @@
+/*
+This script illustrate another way of expressing regular expression using //
+*/
+
+const string1 = 'my favorable food is steak';
+const string2 = 'my favorable thing to do is coding';
+
+//console.log(/^m/.test(string1));
+//console.log(/[a-z]/.test(string2));
+console.log(/a/.test(string1));
