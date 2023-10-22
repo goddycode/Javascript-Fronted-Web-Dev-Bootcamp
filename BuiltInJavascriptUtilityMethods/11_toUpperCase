@@ -1,0 +1,9 @@
+/*
+This script illustrate the use toUpperCase() method
+*/
+
+const myString = 'I love Javascript';
+
+console.log(myString.toUpperCase());
+
+console.log(myString.toLowerCase());
