@@ -1,0 +1,11 @@
+/*
+This script illustrate the use of regex using /[.+] which matches all the given characters
+*/
+
+const str = 'hello word, 2021 @ more of a string';
+
+const regex = /[.+]/.exec(str);
+
+console.log(regex);
+
+//Will debug this code later
