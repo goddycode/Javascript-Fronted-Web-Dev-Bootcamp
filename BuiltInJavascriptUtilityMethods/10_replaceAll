@@ -1,0 +1,12 @@
+/*
+This script illustrates the replaceAll, toUpperCase, substring, trim, match
+*/
+
+const mystring = 'My Dod jumped on the bed. My dog is a bad Dog';
+
+
+const correctStr = mystring.replaceAll(/[Dd]{1}og/g, 'cat');
+
+
+console.log(newString);
+console.log(correctStr);
