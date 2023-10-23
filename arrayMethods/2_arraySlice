@@ -1,0 +1,17 @@
+/*
+Illustrate the use of slice method
+*/
+
+const arr = [2, 3, 4, 5, 7, 8];
+
+const copyArr = arr.slice();
+
+console.log(copyArr);
+
+console.log(arr===copyArr);
+
+
+//copying from the second index
+const anotherCopy = arr.slice(2);
+
+console.log(anotherCopy);
