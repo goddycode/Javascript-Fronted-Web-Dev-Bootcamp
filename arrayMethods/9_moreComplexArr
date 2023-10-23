@@ -1,0 +1,26 @@
+/*
+This script illustrate the use of a complex array
+*/
+
+const moreComplexArr = [
+	{
+		firstName : 'Bob',
+		lastName : 'Smith'
+	},
+	{
+                firstName : 'Alice',
+                lastName : 'Smith'
+        },
+	{
+                firstName : 'John',
+                lastName : 'Smith'
+        },
+	{
+                firstName : 'Bob',
+                lastName : 'Joe'
+        }
+];
+
+moreComplexArr.findIndex((arrItem) => {
+	return console.log(arrItem.lastName !== 'Smith');
+})
