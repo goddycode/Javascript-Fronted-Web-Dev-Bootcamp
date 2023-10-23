@@ -15,9 +15,9 @@ const blogPostsFromDatabase = [
                 title: 'why are you crazy enough to learn to code',      
                 category: 'uncategorized'    
         },
-};
+];
 
 blogPostsFromDatabase.map(arrItem => {
-	arrItem.category = "Web Development';
+	arrItem.category = 'Web Development';
 	return console.log(arrItem);
 });
