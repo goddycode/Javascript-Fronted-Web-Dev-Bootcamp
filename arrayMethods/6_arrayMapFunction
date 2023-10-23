@@ -1,0 +1,23 @@
+/*
+This is script illustrate map function
+*/
+
+const blogPostsFromDatabase = [
+	{
+		title: 'How to use map() function',
+		category: 'uncategorized'
+	},
+	{
+                title: 'what is Javascript',      
+                category: 'uncategorized'    
+        },
+	{
+                title: 'why are you crazy enough to learn to code',      
+                category: 'uncategorized'    
+        },
+};
+
+blogPostsFromDatabase.map(arrItem => {
+	arrItem.category = "Web Development';
+	return console.log(arrItem);
+});
