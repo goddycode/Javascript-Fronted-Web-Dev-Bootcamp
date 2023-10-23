@@ -1,0 +1,12 @@
+/*
+This script illustrate array pop method
+*/
+
+const arr = [1, 2, 3, 5, 6];
+
+arr.pop();
+
+console.log(arr);
+
+
+arr.push(4, 5, 6);
