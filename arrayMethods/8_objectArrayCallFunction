@@ -1,0 +1,42 @@
+/*
+This script illustrate the relationship between object, array and callback function
+*/
+
+const myArrayOfObject = [
+	{
+		name : 'Godfrey',
+		county : 'Migori',
+		specialization : 'Software Eng'
+	},
+	{	name : 'Ann',
+		county : 'Kirinyanga',
+		specialization : 'Not defined'
+	},
+	{	name : 'Faith',
+		county : 'Kisumu',
+		specialization : 'Not defined'
+	},
+	{       name : 'Winnie',
+                county : 'Narok',
+                specialization : 'Not defined'
+        },
+	{       name : 'Seif',
+                county : 'Kisumu',
+                specialization : 'Not defined'
+        },
+	{       name : 'Alex',
+                county : 'Homabay',
+                specialization : 'Not defined'
+        },
+	{       name : 'Caro',
+                county : 'Migori',
+                specialization : 'Not defined'
+        },
+
+];
+
+myArrayOfObject.map(arrItem =>{
+	arrItem.specilization = 'Software Engineering';
+	return console.log(arrItem);
+});
+
