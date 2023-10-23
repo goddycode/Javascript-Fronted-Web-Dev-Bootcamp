@@ -1,0 +1,26 @@
+/*
+Illustrates the use of findIndex
+*/
+
+const moreComplexArr = [
+	{
+		firstName : 'Goddy',
+		lastName : 'Smith'
+	},
+	{
+                firstName : 'Alice',
+                lastName : 'Smith'
+        },
+	{
+                firstName : 'Jon',
+                lastName : 'Smith'
+        },
+	{
+                firstName : 'Jon',
+                lastName : 'Don'
+        },
+];
+
+moreComplexArr.findIndex((arrItem) => {
+	return console.log(arrItem.lastName !== 'Smith');
+})
