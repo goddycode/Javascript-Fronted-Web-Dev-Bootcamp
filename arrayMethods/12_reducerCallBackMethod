@@ -1,0 +1,12 @@
+/*
+This is explain how to use callBack function plus the reducer array method in summing the array and finding the average
+*/
+
+const arr = [10, 20, 30, 25, 14];
+
+function reducerCallback(sum, arrItem){
+	return sum += arrItem;
+}
+
+const result = arr.reduce(reducerCallback, 0);
+console.log(result);
