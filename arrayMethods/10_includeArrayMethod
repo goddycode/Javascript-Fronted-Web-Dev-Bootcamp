@@ -1,0 +1,41 @@
+/*
+This script illustrate the include method
+*/
+
+const myColors = ['blue', 'red', 'purple', 'orange', 'green'];
+
+/* This one of way of doing this 
+
+let orangeExist = false;
+for (let i = 0; i < myColors.length; i++) {
+	if (myColors[i] === 'orange')	{
+		orangeExist = true;
+	}
+}
+console.log(orangeExist);
+*/
+
+
+
+//The simpler way to do using Foreach method
+
+myColors.forEach(arrItem => {
+	if (arrItem === 'orange'){
+		orangeExist = true;
+	}
+});
+console.log(orangeExist);
+
+
+
+
+/*
+//Another simpler way to do this is by using map method
+
+myColors.map(arrItem => {
+        if (arrItem === 'orange'){
+                orangeExist = true;
+        }
+});
+console.log(orangeExist);
+*/
