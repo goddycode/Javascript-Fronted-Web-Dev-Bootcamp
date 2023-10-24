@@ -27,7 +27,19 @@ myColors.forEach(arrItem => {
 console.log(orangeExist);
 
 
+/*
+Another simpler way is the use of include
 
+console.log(myColors.include('orange'));
+*/
+
+/*
+Another simple way to solve it is the use of 'indexof'
+
+console.log(myColors.indexOf('orange') !== -1); 
+
+*/
+*
 
 /*
 //Another simpler way to do this is by using map method
