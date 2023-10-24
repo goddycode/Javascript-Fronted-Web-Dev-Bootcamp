@@ -1,0 +1,5 @@
+/*
+Writing function with arrow function
+*/
+
+multiply = (a, b) => a * b;

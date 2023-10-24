@@ -1,0 +1,8 @@
+/*
+
+*/
+
+function greet(name){
+	return "Hello, " +(name == "Jonny" ? "my love" : name) + "!";
+}
+greet("Jonny");

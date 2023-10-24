@@ -1,6 +1,7 @@
 /*
 Variables are just like containers which holds data
 
+There are five data types in Javascript, namely, number, object, string, boolean, and array.
 */
 
 const myfirstvariable = 'Learning to code gives me superpowers';

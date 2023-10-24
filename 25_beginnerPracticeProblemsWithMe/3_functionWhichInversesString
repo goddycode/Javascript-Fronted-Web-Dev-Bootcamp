@@ -1,0 +1,10 @@
+/*
+A function which inverses a strings
+*/
+function stringInverse(){
+	const str = 'hello';
+	const strinverse = str.split().inverse();
+	console.log(strinverse);
+	return strinverse;
+}
+stringInverse();

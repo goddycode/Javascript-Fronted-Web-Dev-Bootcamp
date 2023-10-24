@@ -1,0 +1,18 @@
+/*
+Sum of elements of two arrays
+*/
+//Should be debug since it does not give desire output
+
+function arrayPlusArray(arr1, arr2){
+
+	let sum = 0;
+
+	for (let i; i <arr1.length; i++){
+		const Arr1Value = arr[i];
+		const Arr2Value = arr2[i];
+		const AddValue  = sumOfArr1 + sumOfArr2;
+
+		sum = sum + AddValue;
+	}
+	return console.log(sum);
+} arrayPlusArray([2,4,5,6], [9, 89, 6, 3]);

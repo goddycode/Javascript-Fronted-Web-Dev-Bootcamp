@@ -6,4 +6,4 @@ const functionContainerVariable = function() {
 	return 20;
 }
 
-console.log("The value hold in function container is " +functionContainerVariable);
+console.log("The value hold in function container is " +functionContainerVariable());

@@ -1,0 +1,11 @@
+/*
+Script to illustrate Javascript builin function
+*/
+
+//Just google JAVASCRIPT BUILTIN FUNCTIONS. There is no need to memorize them
+
+const myString = 'zach';
+
+const modifiedString = myString.replace('h', 'k');
+
+console.log(modifiedString);

@@ -1,0 +1,11 @@
+/*
+A function which take integer as arugment and return 'Even' or 'Odd' for odd numbers
+*/
+
+function evenOrOdd(a){
+	if (a % 2 === 0)
+		return console.log('Even');
+	else 
+		return console.log('Odd');
+}
+evenOrOdd(5);

@@ -1,0 +1,11 @@
+/*
+This script removes space from string then return the resultant string
+*/
+
+function noSpace(x){
+	const arr = x.split(" ");
+	for( let i = 0, i<arr.length; i++){
+		const newarray = arr.trm(" ");
+	}
+	return newarray.join(" ");
+}

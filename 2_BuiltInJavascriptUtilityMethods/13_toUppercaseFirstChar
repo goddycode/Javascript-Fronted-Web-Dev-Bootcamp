@@ -1,0 +1,9 @@
+/*
+This script capitalizes the first character
+*/
+
+const myString = 'I am falling in love with the javascript';
+
+const newString =  myString[0].toUpperCase() + myString.substring(1, myString.length);
+
+console.log(newString);

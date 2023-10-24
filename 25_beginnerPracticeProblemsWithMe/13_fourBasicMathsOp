@@ -1,0 +1,7 @@
+/*
+A function which does four basic maths operation
+*/
+
+function basicMathsOp(op, v1, v2){
+	return eval(v1+op+v2);
+}

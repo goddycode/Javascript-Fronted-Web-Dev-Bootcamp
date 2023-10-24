@@ -1,0 +1,18 @@
+/*
+Script which removes the first and the last character
+*/
+
+fuction removeChar(str){
+	const lengthOfString = str.length;
+	return str.substr(1, lengthOfString -2);
+};
+
+//Alternative solution
+/*
+Script which removes the first and the last character
+*/                                        
+                                          
+//fuction removeChar(str){    
+//      return str.slice(1, -1);     
+//};
+

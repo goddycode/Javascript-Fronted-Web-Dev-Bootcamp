@@ -1,0 +1,8 @@
+/*
+This script split and string and converted it to array
+
+*/
+
+funtion stringToArray(string) {
+	return string.split(" ");
+}

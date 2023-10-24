@@ -1,0 +1,8 @@
+/*
+A function which take integer as arugment and return 'Even' or 'Odd' for odd numbers
+*/
+
+function evenOrOdd(a){
+	if (a % 2) ? 'Even' || 'Odd';
+}
+evenOrOdd(5);

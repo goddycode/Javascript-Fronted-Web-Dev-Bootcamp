@@ -1,0 +1,12 @@
+/* This script shows how regular expression is used to validate a text
+*/
+
+ const myRegExp = new RegExp('g');
+
+const string1 = 'my favable food is steak';
+
+const string2 = 'my favorite thing to do is code';
+
+console.log(myRegExp.test(string1));
+
+console.log(myRegExp.test(string2));

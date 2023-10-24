@@ -1,0 +1,8 @@
+/*
+Write a function called repeatStr which repeat a give string src exactly count times
+*/
+
+function repeatStr(n, str){
+	return str.repeat(n);
+}
+	

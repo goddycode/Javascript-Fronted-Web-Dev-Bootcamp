@@ -1,0 +1,11 @@
+/*
+This script illustrate teh match method
+*/
+
+const regex = /[a-z]+/
+
+const str = 'afghjklmmm367999ddd9';
+
+console.log(regex.exec.str);
+
+console.log(str.match.regex);

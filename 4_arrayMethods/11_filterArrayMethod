@@ -1,0 +1,35 @@
+/*
+This is script illustrate how to use filter array method
+*/
+
+const allOrders = [
+	{
+		productName : 'Tea pot',
+		isDigital : false,
+		isCancelled : false
+	},
+	{
+                productName : 'Coffee pot',
+                isDigital : false,
+                isCancelled : false
+        },
+	{
+                productName : 'iPhone',
+                isDigital : true,
+                isCancelled : false
+        },
+	{
+                productName : 'Mac Laptop',
+                isDigital : true,
+                isCancelled : false
+        },
+	{
+                productName : 'Tblk',
+                isDigital : false,
+                isCancelled : false
+        }
+];
+
+const digialOrders = allOrders.filter(arrItem => {
+	return console.log(arrItem.isDigital);
+)};

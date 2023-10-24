@@ -1,0 +1,23 @@
+/*
+
+*/
+
+/* function makeNegative(num) {
+	if(num < 0){
+		return console.log(num);
+	}
+	else 
+		return console.log(num * -1);
+} */
+
+//Alternative solution
+function makeNegative(num){
+	return console.log(num < 0 ? num : -num);
+}
+
+makeNegative(5);
+
+//Alternative solution3
+//function makeNegative(num){
+//	return -Math.abs(num);
+//}
