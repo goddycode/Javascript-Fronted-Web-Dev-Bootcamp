@@ -1,0 +1,11 @@
+/*
+This scripts illustrate array Random Index in Javascript
+*/
+
+const arr = ['Cassava', 'Guarvas', 'Mango', 'Pipeable', 'Avocado'];
+
+const randomIndex = Math.floor(Math.random() * arr.length);
+
+console.log(randomIndex);
+
+console.log(Math.floor(Math.random() * arr.length));
